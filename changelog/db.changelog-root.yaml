@@ -1,9 +1,7 @@
 databaseChangeLog:
+  # Changesets históricos
   - include:
-      file: changelog/changes/001_create_bi_schema.sql
-
-  - include:
-      file: changelog/changes/002_create_staging_schema.sql
+      file: changelog/db.changelog-master.sql
 
   - include:
       file: changelog/changes/003_create_dim_date.sql
